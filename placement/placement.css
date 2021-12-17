@@ -6,9 +6,12 @@
 .maindiv
 {
     width:100%;
-    height:37rem;
-    background-color: #65787F;
+    height: 45rem;
+    background-image: url("./images/raipur.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
+    letter-spacing: .1rem;
 }
 .first,.second
 {
@@ -16,7 +19,7 @@
  height: 100%;
  display: flex;
  justify-content: center;
- align-items: center;
+ 
 }
 .second
 {
@@ -28,15 +31,14 @@
     display: flex;
     height: auto;
     flex-direction: column;
-    /* background-color: #048EDC; */
-    justify-content: center;
+    margin-top: 10rem;
     align-items: center;
 }
 .boxfirst> button[type="submit"]
 {
     width:6rem;
     height:2.8rem;
-    background-color: #0aa5ff;
+    background-color: #007fc8;
     color: white;
     outline: none;
     border: none;
@@ -51,15 +53,15 @@
 .textdiv
 {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 .textdiv>h4{
     color: #ffffff;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
 }
 .placementbody
 {
@@ -102,8 +104,8 @@ display: flex;
 }
 .bodysubimg>img
 {
-    width:85%;
-    height: 80%;
+    width:60%;
+    height: 60%;
 }
 .bodytextsub
 {
@@ -130,4 +132,22 @@ font-weight: 600;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+}
+.tableimg
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.tablebody
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.tabimg{
+    width: 30%;
+    display: flex;
+    justify-content: center;
 }
