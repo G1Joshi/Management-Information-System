@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(186, 247, 247);
+}
+h2{
+    font-family: Sans-serif; 
+    font-size: 40px;     
+    font-style: normal; 
+    font-weight: bold; 
+    color: black;
+    text-align: center; 
+    
+   }
+   table{
+    font-family: verdana; 
+    color:black; 
+    font-size: 16px; 
+    font-style: normal;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); 
+   }
+   table.inner{
+    border: 10px
+   }
+   input[type=text], input[type=email], input[type=number]{
+    width: 70%;
+    padding: 6px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+   }
+   input[type=submit], input[type=submit]{
+    width: 25%;
+    padding: 8px 12px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    background-color:cornflowerblue;
+   }
+   input:hover{
+       background-color: darkgray;
+       cursor: pointer;
+   }
+   <table align="center" cellpadding = "10">
