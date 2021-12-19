@@ -85,17 +85,15 @@ body {
 .login-button:focus {
   background-color: hsla(201, 100%, 50%, 0.5);
 }
-  
-    .pass {
-        margin: 12px 0;
-        color:honeydew;
-    }
 
-    .pass1 {
-        margin: 12px 0;
-        color:honeydew;
-        text-align: left;
-        left: 30px;
+.pass {
+  margin: 12px 0;
+  color: honeydew;
+}
 
-    }
-
+.pass1 {
+  margin: 12px 0;
+  color: honeydew;
+  text-align: left;
+  left: 30px;
+}
